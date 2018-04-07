@@ -16,7 +16,6 @@ body {
 /* for dividers I know I should be using some kind of border-box
 but I don't understand how to implement it */
 
-
 h3 {
   font-size: 18px;
   font-weight: bold;
@@ -36,6 +35,8 @@ h5 {
   font-size: 15.5px;
   font-weight: lighter;
   font-style: italic;
+  margin-left: 20px;
+
 }
 
 nav {
@@ -43,7 +44,7 @@ nav {
   float: left;
   margin: 0;
   width: 375px;
-  height: 0px;
+  height: 64px;
   padding-bottom: 320px;
   background-color: #D2DFF9;
 
@@ -53,7 +54,6 @@ nav h1 {
   text-align: center;
   font-size: 18.5px;
   font-weight: bold;
-
 
 }
 
@@ -86,16 +86,6 @@ ul li ul li {
 
 }
 
-.route-data-reroute{
-  background-color: #C1D2F5;
-  padding: 3px;
-  border-bottom: 1px solid #91B2F2;
-
-}
-.route-data-out{
-  background-color: #A4B7DB;
-
-}
 
 .arrow-right {
 
