@@ -11,103 +11,104 @@
   <section class ="container">
     <nav>
       <img src="images/statusbar.png" alt="status bar">
-      <img src="images/arrow-left.png" class="arrow-left">
+      <!-- how do I align the arrow-left image properly? -->
+      <img src="images/arrow-left.png" class="arrow-left" alt: "left arrow">
       <h1> Washington & State Street</h1>
       <img src="/images/map.png" alt:"Map View">
-      </nav>
+    </nav>
 
-      <!-- where do I put the arrow-right image
-       <img src="images/arrow-right.png" -->
+    <!-- where do I put the arrow-right image
+    <img src="images/arrow-right.png" class= "arrow-right" alt" right arrow"-->
 
-    <!-- route data -->
+    <!-- route data - nested list attempt -->
+    <!-- is this indented properly? I used "Auto Indent" on Atom, but this looks strange to me -->
+    <ul style="list-style-type:none">
+      <li>
+        <ul>
+          <li><h2>60</h2></li>
+          <li>
+            <h3>Randolph Harb...</h3>
+            <h4>Eastbound</h4>
+          </li>
+          <li><h5>Every 20 min</h5></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><h2>124</h2></li>
+          <li>
+            <h3>Navy Pier</h3>
+            <h4>Eastbound</h4>
+          </li>
+          <li><h5>Every 10 min</h5></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><h2>151</h2></li>
+          <li>
+            <h3>Devon/Clark</h3>
+            <h4>Northbound</h4>
+          </li>
+          <li><h5>Every 16 min</h5></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><h2>6x</h2></li>
+          <li>
+            <h3>Jackson Park Ex...</h3>
+            <h4>Reroute</h4>
+          </li>
+          <li><h5>N/A</h5></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><h2>20</h2></li>
+          <li>
+            <h3>Madison</h3>
+            <h4>Out of Service</h4>
+          </li>
+          <li><h5>Resumes 12:10am</h5></li>
+        </ul>
+      </li>
 
-          <ul style="list-style-type:none">
-        <li>
-          <ul>
-            <li><h2>60</h2></li>
-            <li>
-              <h3>Randolph Harb...</h3>
-              <h4>Eastbound</h4>
-            </li>
-            <li><h5>Every 20 min</h5></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><h2>124</h2></li>
-            <li>
-              <h3>Navy Pier</h3>
-              <h4>Eastbound</h4>
-            </li>
-            <li><h5>Every 10 min</h5></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><h2>151</h2></li>
-            <li>
-              <h3>Devon/Clark</h3>
-              <h4>Northbound</h4>
-            </li>
-            <li><h5>Every 16 min</h5></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><h2>6x</h2></li>
-            <li>
-              <h3>Jackson Park Ex...</h3>
-              <h4>Reroute</h4>
-            </li>
-            <li><h5>N/A</h5></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><h2>20</h2></li>
-            <li>
-              <h3>Madison</h3>
-              <h4>Out of Service</h4>
-            </li>
-            <li><h5>Resumes 12:10am</h5></li>
-          </ul>
-        </li>
 
 
+      <!-- code prior to implementing nested list<ul>
+      <li>
+      <span class="bus-number">60</span>
+      <span class="destination">Randolph/Harb...</span>
+      <span class="frequency">Every 20 min</span>
+      <li class ="direction">Eastbound</li>
 
-        <!-- code prior to implementing nested list<ul>
-        <li>
-        <span class="bus-number">60</span>
-        <span class="destination">Randolph/Harb...</span>
-        <span class="frequency">Every 20 min</span>
-        <li class ="direction">Eastbound</li>
+      <li>
+      <span class="bus-number">124</span>
+      <span class="destination">Navy Pier</span>
+      <span class="frequency">Every 10 min</span>
+      <li class ="direction">Eastbound</li>
 
-        <li>
-        <span class="bus-number">124</span>
-        <span class="destination">Navy Pier</span>
-        <span class="frequency">Every 10 min</span>
-        <li class ="direction">Eastbound</li>
+      <li>
+      <span class="bus-number">151</span>
+      <span class="destination">Devon/Clark</span>
+      <span class="frequency">Every 16 min</span>
+      <li class ="direction">Northbound</li>
 
-        <li>
-        <span class="bus-number">151</span>
-        <span class="destination">Devon/Clark</span>
-        <span class="frequency">Every 16 min</span>
-        <li class ="direction">Northbound</li>
+      <li>
+      <span class="bus-number">6X</span>
+      <span class="destination">Jackson Park Ex...</span>
+      <span class="frequency">N/A</span>
+      <li class ="direction">Reroute</li>
 
-        <li>
-        <span class="bus-number">6X</span>
-        <span class="destination">Jackson Park Ex...</span>
-        <span class="frequency">N/A</span>
-        <li class ="direction">Reroute</li>
+      <li>
+      <span class="bus-number">20</span>
+      <span class="destination">Madison</span>
+      <span class="frequency">Resumes 12:10am</span>
+      <li class ="direction">Out of Service</li>
+    </ul> -->
 
-        <li>
-        <span class="bus-number">20</span>
-        <span class="destination">Madison</span>
-        <span class="frequency">Resumes 12:10am</span>
-        <li class ="direction">Out of Service</li>
-      </ul> -->
+  </section>
 
-    </section>
-
-  </body>
-  </html>
+</body>
+</html>

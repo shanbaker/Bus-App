@@ -11,6 +11,10 @@ body {
   line-height: 1.7em;
 }
 
+/* I need help with aligning and spacing of the route data */
+
+/* for dividers I know I should be using some kind of border-box
+but I don't understand how to implement it */
 
 h2 {
   font-size: 18px;
