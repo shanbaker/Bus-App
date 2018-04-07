@@ -21,7 +21,8 @@ h2 {
   font-weight: bold;
   float: right;
   margin-left: 12px;
-}
+
+  }
 
 h3 {
   font-size: 18px;
@@ -60,6 +61,7 @@ nav h1 {
   text-align: center;
   font-size: 18.5px;
   font-weight: bold;
+
 }
 
 ul li ul li {
@@ -81,9 +83,26 @@ ul li ul li {
 
 }
 
-/* .route-data {
+.route-data {
+  background-color: #D2DFF9;
+  padding: 5px;
+  border-bottom: 1px solid #91B2F2;
+  float: left;
+  width: 100%;
+}
+
+.route-data-reroute{
+  background-color: #C1D2F5;
+  padding: 5px;
+  border-bottom: 1px solid #91B2F2;
+  float: left;
+  width: 100%;
+}
+.route-data-out{
+    background-color: #A4B7DB;
 
 }
+/*
 
 .bus-number, .destination, .frequency, .direction, {
 
