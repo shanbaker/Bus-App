@@ -16,13 +16,6 @@ body {
 /* for dividers I know I should be using some kind of border-box
 but I don't understand how to implement it */
 
-h2 {
-  font-size: 18px;
-  font-weight: bold;
-  float: right;
-  margin-left: 12px;
-
-  }
 
 h3 {
   font-size: 18px;
@@ -50,10 +43,9 @@ nav {
   float: left;
   margin: 0;
   width: 375px;
-  height: 84px;
+  height: 0px;
   padding-bottom: 320px;
   background-color: #D2DFF9;
-
 
 }
 
@@ -61,6 +53,7 @@ nav h1 {
   text-align: center;
   font-size: 18.5px;
   font-weight: bold;
+
 
 }
 
@@ -72,36 +65,45 @@ ul li ul li {
 .container {
   margin: 0 auto;
   width: 375px;
-  height: 667px;
+  height: 667;
   background-color: #4F86D7;
   margin: auto;
 
 }
 
 .arrow-left {
-  margin-left: 12px;
-
 }
 
+.map {
+  border-top: 3px solid #4F86D7;
+  border-bottom: 3px solid #4F86D7;
+
+}
 .route-data {
   background-color: #D2DFF9;
-  padding: 5px;
+  padding: 3px;
   border-bottom: 1px solid #91B2F2;
-  float: left;
-  width: 100%;
+
 }
 
 .route-data-reroute{
   background-color: #C1D2F5;
-  padding: 5px;
+  padding: 3px;
   border-bottom: 1px solid #91B2F2;
-  float: left;
-  width: 100%;
-}
-.route-data-out{
-    background-color: #A4B7DB;
 
 }
+.route-data-out{
+  background-color: #A4B7DB;
+
+}
+
+.arrow-right {
+
+}
+.bus-number {
+  margin-left: 5px;
+}
+
 /*
 
 .bus-number, .destination, .frequency, .direction, {
