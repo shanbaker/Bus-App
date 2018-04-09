@@ -11,23 +11,20 @@ body {
   line-height: 1.7em;
 }
 
-/* I need help with aligning and spacing of the route data */
+h2 {
+  font-size: 18px;
+  font-weight: bold;
 
-/* for dividers I know I should be using some kind of border-box
-but I don't understand how to implement it */
+}
 
 h3 {
   font-size: 18px;
-  font-weight: bold;
-  margin-left: 5px;
-  margin-top: 8px;
-
+  font-weight: normal;
 }
 
 h4 {
   font-size: 16px;
   font-weight: normal;
-  margin-left: 5px;
 
 }
 
@@ -35,7 +32,6 @@ h5 {
   font-size: 15.5px;
   font-weight: lighter;
   font-style: italic;
-  margin-left: 20px;
 
 }
 
@@ -54,11 +50,20 @@ nav h1 {
   text-align: center;
   font-size: 18.5px;
   font-weight: bold;
+  padding-left: 36px;
+  padding-top: 15px;
 
 }
 
 ul li ul li {
   display: inline-block;
+  margin-right: 15px;
+  line-height: 30px;
+
+}
+
+.ul {
+  list-style-type: none
 
 }
 
@@ -71,7 +76,11 @@ ul li ul li {
 
 }
 
-.arrow-left {
+.arrow-left, h1 {
+  display: inline-block;
+  padding-left: 10px;
+  padding-bottom: 5px;
+
 }
 
 .map {
@@ -79,22 +88,37 @@ ul li ul li {
   border-bottom: 3px solid #4F86D7;
 
 }
+
 .route-data {
   background-color: #D2DFF9;
   padding: 3px;
   border-bottom: 1px solid #91B2F2;
-
 }
 
 .arrow-right {
-
+  float: right;
 }
+
 .bus-number {
-  margin-left: 5px;
+  background-color: #0C2852;
+  color: #D2DFF9;
+  padding: 4px;
+  margin: 4px 0px 4px 4px;
+  width: 40px;
+  text-align: center;
+
 }
 
-/*
+.destination {
+  width: 45%;
+  line-height: 25px;
+  margin-right: 10px;
+  padding-top: 5px;
 
-.bus-number, .destination, .frequency, .direction, {
+}
 
-} */
+.frequency {
+  width: 25%;
+  padding-left: 50px;
+
+}
