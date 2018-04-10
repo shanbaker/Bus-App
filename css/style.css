@@ -136,6 +136,11 @@ ul li ul li {
 
 }
 
+.reroute {
+  width: 85%;
+  vertical-align: top;
+}
+
 .alert {
   vertical-align: top;
 
