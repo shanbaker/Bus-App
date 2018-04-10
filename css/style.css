@@ -15,7 +15,6 @@ h2 {
   font-size: 15px;
   font-weight: bold;
 
-
 }
 
 h3 {
@@ -26,7 +25,6 @@ h3 {
 h4 {
   font-size: 14px;
   font-weight: normal;
-
 
 }
 
@@ -69,7 +67,7 @@ ul li ul li {
 
 }
 
-.ul {
+ul {
   list-style-type: none
 
 }
@@ -82,7 +80,6 @@ ul li ul li {
   margin: auto;
 
 }
-
 
 .arrow-left, h1 {
   display: inline-block;
@@ -138,10 +135,15 @@ ul li ul li {
 
 .reroute {
   vertical-align: top;
+  padding-right: 5px;
 
 }
 
 .alert {
   vertical-align: top;
 
+}
+
+.route-data:hover {
+  background-color: #A6C1F7;
 }
