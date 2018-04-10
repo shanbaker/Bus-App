@@ -12,27 +12,35 @@ body {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
+
 
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
+
 
 }
 
 h5 {
-  font-size: 15.5px;
-  font-weight: lighter;
+  font-size: 15px;
+  font-weight: bold;
   font-style: italic;
 
+}
+
+h6 {
+  font-size: 15px;
+  font-weight:lighter;
+  font-style: italic;
 }
 
 nav {
@@ -47,8 +55,7 @@ nav {
 }
 
 nav h1 {
-  text-align: center;
-  font-size: 18.5px;
+  font-size: 18px;
   font-weight: bold;
   padding-left: 36px;
   padding-top: 15px;
@@ -70,11 +77,12 @@ ul li ul li {
 .container {
   margin: 0 auto;
   width: 375px;
-  height: 667;
+  height: 667px;
   background-color: #4F86D7;
   margin: auto;
 
 }
+
 
 .arrow-left, h1 {
   display: inline-block;
@@ -97,15 +105,18 @@ ul li ul li {
 
 .arrow-right {
   float: right;
+  margin right: 1px;
+  margin-bottom: 5px;
 }
 
 .bus-number {
   background-color: #0C2852;
   color: #D2DFF9;
   padding: 4px;
-  margin: 4px 0px 4px 4px;
+  margin: 10px 3px 4px 4px;
   width: 40px;
   text-align: center;
+  vertical-align: top;
 
 }
 
@@ -113,12 +124,19 @@ ul li ul li {
   width: 45%;
   line-height: 25px;
   margin-right: 10px;
+  padding-left: 14px;
   padding-top: 5px;
 
 }
 
 .frequency {
   width: 25%;
-  padding-left: 50px;
+  text-align: right;
+  line-height: 23px;
+
+}
+
+.alert {
+  vertical-align: top;
 
 }

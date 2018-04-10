@@ -1,0 +1,31 @@
+<svg width="35" height="33" viewBox="0 0 35 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>alert</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-602 -323)">
+<g id="alert" filter="url(#filter0_d)">
+<g id="Polygon">
+<use xlink:href="#path0_fill" transform="translate(606 324.132)" fill="#4372B7"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(618.462 338.559)" fill="#D2DFF9"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="translate(618.462 329.585)" fill="#D2DFF9"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="602" y="323" width="35" height="34" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="3"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.6 0 0 0 0 0.713726 0 0 0 0 0.94902 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 10.584 4.19555C 11.7535 2.27944 14.536 2.27944 15.7055 4.19555L 21.7435 14.0884C 22.9636 16.0875 21.5248 18.6513 19.1828 18.6513L 7.10672 18.6513C 4.76468 18.6513 3.32586 16.0875 4.546 14.0884L 10.584 4.19555Z"/>
+<path id="path1_fill" d="M 1.66154 0.828947C 1.66154 1.28676 1.28959 1.65789 0.830769 1.65789C 0.371948 1.65789 0 1.28676 0 0.828947C 0 0.371132 0.371948 0 0.830769 0C 1.28959 0 1.66154 0.371132 1.66154 0.828947Z"/>
+<path id="path2_fill" d="M 0 0.710526C 0 0.318113 0.318113 0 0.710526 0L 0.710526 0C 1.10294 0 1.42105 0.318113 1.42105 0.710526L 1.42105 7.10526C 1.42105 7.49768 1.10294 7.81579 0.710526 7.81579L 0.710526 7.81579C 0.318113 7.81579 0 7.49768 0 7.10526L 0 0.710526Z"/>
+</defs>
+</svg>
